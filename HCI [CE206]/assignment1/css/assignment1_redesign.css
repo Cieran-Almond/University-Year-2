@@ -1,0 +1,71 @@
+/* Cieran Almond 1604959 */
+
+
+body {
+	font-family: Times New Roman;
+    background-color: lightgrey;
+	/* set background colour of webpage (body) to dark grey */
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Times New Roman;
+    color: black;
+    text-align: left;
+	font-size: 30px;
+	/* set font, font size, colour and align it to the left of the page for all headers*/
+}
+
+p {
+	color: black;
+    font-family: Times New Roman;
+    font-size: 20px;
+	/* set colour, font and font size for all elements in p */
+}
+
+li {
+	position: top-left;
+	font-family: Times New Roman;
+	color: black;
+	font-size: 20px;
+	/* set unordered list position to left, set font size, font and colour*/
+	
+}
+
+title {
+	position: top-left;
+	font-family: Monospace;
+	color: white;
+}
+
+a:link, a:visited {
+	background-color: lightgrey;
+	color: black;
+	padding: 14px 25px;
+    text-align: center;
+	display: inline-block;	
+	text-decoration: none;
+	/* set visited and link look to darkgrey, yellow text, display in inlineblock so it appears in uniform line, remove text decoration to get rid of bullet points*/
+	
+}
+
+a:hover, a:active {
+	background-color: grey;
+	text-decoration: none;
+	/* set on mouse hover colour to grey, text decoration to remove bulletpoint from unordered list*/
+}
+
+li2	{
+	position: absolute;
+	float: left;
+    border: 3px solid red; 
+	font-size: 65px;
+	/* float left, give white boarder to text and set large font size since its the nav bar*/
+}
+img {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding:10px;
+	border: 5px solid red;
+	/*set position to absolute so its fixed, set position to top right, add padding from border to make it seem centered */
+}

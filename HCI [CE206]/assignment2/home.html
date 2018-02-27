@@ -1,0 +1,108 @@
+<!–– Cieran Almond 1604959 ––>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>
+		
+	</title>
+	<!–– link stylesheet ––>
+	<link rel="stylesheet" type="text/css" href="css/assignment2.css">
+</head>
+<body>
+
+	<!–– h1 to h3 styled headers for all pages  ––>
+	<h3>
+		CONTACT: cieran884@gmail.com
+	</h3>
+	<h1>
+		Cieran Almond
+	</h1>
+	<h2>
+		Designer//Creator
+	</h2>
+	
+	<p>
+		Copyright Act 1911. The current act is the Copyright, Designs and Patents Act 1988.
+	</p>
+	<button onclick="page_updated()">Page last updated on: </button>
+
+	<p id="Update"></p>
+	<!–– javascript function to get current data and display it on button press. ––>
+	<script>
+		function page_updated() {
+		var x = document.lastModified;
+		document.getElementById("Update").innerHTML = x;
+		}
+	</script>
+	<!–– links the image to the website ––>
+	<div id="essex">
+	<p2>
+		<img src="images/essex.jpg" alt="Essex logo" width="200" height="180">
+	</p2>
+		 <!–– sourced from https://www.acss.org.uk/wp-content/uploads/sites/2/2017/10/uni_of_essex_320_320_80_s_c1.jpg ––>
+		 
+		 
+		 <!–– div classes to make the circles with unordered list inside ––>
+		<div class="circle_container">
+			<div class="circle_main">
+				<div class="circle_text_container">
+					<div class = "circle_text">
+					<li>
+						<a href="home.html">Home</a>
+					</li>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		<div class="circle_container">
+			<div class="circle_main">
+				<div class="circle_text_container">
+					<div class = "circle_text">
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		<div class="circle_container">
+			<div class="circle_main">
+				<div class="circle_text_container">
+					<div class = "circle_text">
+					<li>
+						<a href="modules.html">Modules</a>
+					</li>
+					</div>
+				</div>
+			</div>
+		</div>	
+	
+		<div class="circle_container">
+			<div class="circle_main">
+				<div class="circle_text_container">
+					<div class = "circle_text">
+					<li>
+						<a href="hobbies.html">Hobbies</a>
+					</li>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="circle_container">
+			<div class="circle_main">
+				<div class="circle_text_container">
+					<div class = "circle_text">
+					<li>
+						<a href="work.html">Work</a>
+					</li>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>
