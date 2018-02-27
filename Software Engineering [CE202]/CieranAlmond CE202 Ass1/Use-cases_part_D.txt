@@ -1,0 +1,36 @@
+CANDIDATE CLASSES:
+>is it beyond the scope of the system?
+>does it refer to the system as a whole?
+>does it duplicate another class?
+>is it too vague?
+>is it too tied up with physical inputs and outputs?
+>is it really an attribute?
+>is it really an oepration>
+?is it really an association?
+
+
+
+
+BOUNDARY CLASS(objects that interface with system actors):
+
+	Maintenance
+	Production Line control
+	Production record sheet
+
+CONTROL CLASS(objects co-ordinate and control other objects):
+
+	Supervisor
+	Timesheet
+	Operative
+	Job card
+
+ENTITY CLASS(objects representing information and behaviour in the application domain):
+
+	Product
+	Farm
+	Supplier
+	Warehouse
+	Ingredients
+	Job Number
+	Time
+	Absence
